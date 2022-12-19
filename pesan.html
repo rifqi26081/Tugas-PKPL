@@ -1,0 +1,39 @@
+<html>
+<head>
+	<style>
+
+		body
+		{
+			background-color: #FF6347;
+		}
+	</style>
+	<title>Pesanan</title>
+</head>
+
+<body>
+
+	<form action="login.php" method="POST">
+		<fieldset>
+			<legend style="color:#FFFF00;">Isi Form Dibawah Ini</legend>
+	
+		<p style="color:#FFFF00;"> Nama : </p>
+		<input type="text" name="Nama">
+		<p style="color:#FFFF00;"> Alamat : </p>
+		<textarea name="Alamat" rows="5" cols="26"></textarea>
+		<p style="color:#FFFF00;"> No WhatsApp : </p>
+		<input type="text" name="Whatsapp">
+		<p style="color:#FFFF00;"> Jumlah Pesanan : </p>
+		<input type="text" name="Jumlah">
+
+		<p style="color:#FFFF00;"> Pilih Jasa Antar </p>
+		<select name="Jasa">
+			<option value="JNE">JNE</option>
+			<option value="TIKI">TIKI</option>
+			<option value="SICEPAT">SICEPAT</option>
+		</select>
+		<br><br>
+
+		<input type="submit" name="Submit">
+	</form>
+</body>
+</html>
